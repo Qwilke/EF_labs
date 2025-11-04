@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_Activity01_NetFramework", "..\EF_Activity01_NetFramework\EF_Activity01_NetFramework.csproj", "{51E89DFD-D310-4F60-B87E-32A13ACDAE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activity0202_ExistingDbNetFrameworkEF6", "..\Activity0202_ExistingDbNetFrameworkEF6\Activity0202_ExistingDbNetFrameworkEF6.csproj", "{03C3EF33-EBC9-44ED-BDCC-91101A442CFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51E89DFD-D310-4F60-B87E-32A13ACDAE76} = {51E89DFD-D310-4F60-B87E-32A13ACDAE76}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E89DFD-D310-4F60-B87E-32A13ACDAE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E89DFD-D310-4F60-B87E-32A13ACDAE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E89DFD-D310-4F60-B87E-32A13ACDAE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E89DFD-D310-4F60-B87E-32A13ACDAE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C3EF33-EBC9-44ED-BDCC-91101A442CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C3EF33-EBC9-44ED-BDCC-91101A442CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C3EF33-EBC9-44ED-BDCC-91101A442CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C3EF33-EBC9-44ED-BDCC-91101A442CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B17014E8-3FBF-45C5-A3F2-EC0C2C2521BA}
+	EndGlobalSection
+EndGlobal
